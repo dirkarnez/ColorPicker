@@ -1,0 +1,7 @@
+cmake_minimum_required(VERSION 3.8)
+project(ColorPicker)
+add_subdirectory("SFML")
+set(SFML_STATIC_LIBRARIES TRUE)
+SET(CMAKE_EXE_LINKER_FLAGS "${CMAKE_EXE_LINKER_FLAGS} /subsystem:windows /ENTRY:mainCRTStartup")
+add_executable(ColorPicker WIN32 main.cpp)
+target_link_libraries(ColorPicker sfml-graphics)
