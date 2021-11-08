@@ -1,4 +1,4 @@
 [submodule "SFML"]
 	path = SFML
 	url = https://github.com/SFML/SFML
-	tag = 2.5.1
+	branch = 2.5.x
