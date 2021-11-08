@@ -17,7 +17,7 @@ int main()
 	hDC = GetDC(NULL);
 	if (hDC == NULL)
 		return CLR_INVALID;
-	sf::RenderWindow window(sf::VideoMode(300, 300), "Color Picker by Alex Chan", sf::Style::Titlebar | sf::Style::Close);
+	sf::RenderWindow window(sf::VideoMode(300, 300), "Color Picker", sf::Style::Titlebar | sf::Style::Close);
 	sf::Color mycolor;
 
 	while (window.isOpen())
