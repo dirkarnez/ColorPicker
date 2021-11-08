@@ -1,5 +1,5 @@
 ColorPicker
-======================
-# How to build
-- Place SFML git repo to root directory
-- CMake build
+===========
+
+### Reference
+- https://github.com/SFML/SFML/blob/master/examples/win32/Win32.cpp
